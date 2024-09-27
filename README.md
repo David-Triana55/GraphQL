@@ -1,4 +1,4 @@
-# GraphQL Person Information Management (Persistencia Local)
+# Gestión de Información de Personas con GraphQL (Persistencia Local)
 
 Este proyecto es una aplicación completa que permite gestionar la información de personas utilizando una interfaz desarrollada con React y Apollo Client para interactuar con un backend construido con Apollo Server que maneja las consultas y mutaciones de GraphQL. En esta rama, la persistencia de los datos se realiza localmente utilizando JSON Server.
 
