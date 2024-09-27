@@ -4,15 +4,18 @@
   "main": "index.js",
   "workspaces": [
     "Node-Graphql",
-    "React-Graphql"
+    "React-Graph"
   ],
   "scripts": {
     "start": "npm run start --workspace=Node-Graphql",
     "json-server": "npm run json-server --workspace=Node-Graphql",
-    "start:react": "npm run dev --workspace=React-Graphql"
+    "start:react": "npm run dev --workspace=React-Graph"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "@biomejs/biome": "1.9.2"
+  }
 }
