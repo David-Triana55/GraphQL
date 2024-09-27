@@ -1,8 +1,7 @@
 import { useMutation } from "@apollo/client";
 import { Button, TextField } from "@mui/material";
-import { useState } from "react";
+import React, { useState } from "react";
 import { ALL_PERSONS, CREATE_PERSON, UPDATE_PERSON } from "../queries";
-import React from 'react'
 
 export function UpdateUser({ method, info, setModal }) {
 	const [data, setData] = useState({

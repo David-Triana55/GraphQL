@@ -1,12 +1,9 @@
-import { useState } from "react";
-import React from 'react'
+import React, { useState } from "react";
 
 import "./App.css";
 import { Modal } from "./components/Modal";
 import { PersonList } from "./components/PersonList";
 import { UpdateUser } from "./components/UpdateUser";
-
-
 
 function App() {
 	const [modal, setModal] = useState(false);
